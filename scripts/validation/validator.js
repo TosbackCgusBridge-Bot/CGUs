@@ -7,7 +7,7 @@ import fetch from '../../src/fetcher/index.js';
 import filter from '../../src/filter/index.js';
 
 const MIN_DOC_LENGTH = 100;
-const TIMEOUT = 100000;
+const TIMEOUT = 10000;
 
 const validator = new Ajv({
   allErrors: true,
