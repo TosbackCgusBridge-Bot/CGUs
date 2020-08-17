@@ -1,0 +1,10 @@
+{
+  "name": "Earthlink",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/940c8d2ffb356473d324a3e0830723f39779de0c/rules/earthlink.net.xml",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "http://www.earthlink.net/about/policies/use.faces",
+      "select": "div.prod"
+    }
+  }
+}
