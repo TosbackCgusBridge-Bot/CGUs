@@ -204,6 +204,10 @@ async function processTosback2(importedFrom, imported) {
     imported.sitename.docname = [ imported.sitename.docname ];
   }
   const serviceName = toPascalCase(imported.sitename.name.split('.')[0]);
+  if (!imported.sitename.docname[0].url.reviewed) {
+    console.log('focusing on crawl_reviewed, skipping the rest');
+    return;
+  }
   const promises = imported.sitename.docname.map(async docnameObj => processWhenReady(serviceName, docnameObj.name, docnameObj.url.name, docnameObj.url.xpath, importedFrom).catch(e => {
     console.log('Could not process', serviceName, docnameObj.name, docnameObj.url.name, docnameObj.url.xpath, importedFrom, e.message);
   }));
@@ -285,4 +289,4 @@ async function run(includeXml, includePsql) {
 }
 
 // Edit this line to run the Tosback / ToS;DR import(s) you want:
-run(false, true);
+run(true, false);
