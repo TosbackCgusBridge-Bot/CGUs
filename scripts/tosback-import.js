@@ -124,8 +124,30 @@ async function parseFile(filename) {
 }
 
 function toPascalCase(str) {
-  const lowerCase = str.toLowerCase();
-  return str[0].toUpperCase() + lowerCase.substring(1);
+  const parts = str.split(' ');
+  const candidate = parts.map(part => {
+    const lowerCase = part.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+    return part[0].toUpperCase() + lowerCase.substring(1);
+  }).join('');
+  return {
+    Att: 'ATT',
+    Bbc: 'BBC',
+    Discordapp: 'DiscordApp',
+    Duckduckgo: 'DuckDuckGo',
+    Foxnews: 'FoxNews',
+    Github: 'GitHub',
+    Live: 'MicrosoftLive',
+    Msn: 'MSN',
+    Phpbb: 'phpBB',
+    Plus: 'GooglePlus',
+    Microsoftstore: 'MicrosoftStore',
+    Play: 'GooglePlayStore', // note this is an exception in https://github.com/ambanum/CGUs/issues/106#issue-680943515
+    W3schools: 'W3Schools',
+    Wikimediafoundation: 'WikimediaFoundation',
+    Wordpress: 'WordPress',
+    Xing: 'XING',
+    Youtube: 'YouTube'
+  }[candidate] || candidate;
 }
 
 function toType(str) {
