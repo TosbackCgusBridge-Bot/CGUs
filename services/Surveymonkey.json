@@ -1,0 +1,10 @@
+{
+  "name": "Surveymonkey",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/surveymonkey.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.surveymonkey.com/mp/policy/privacy-policy",
+      "select": "body"
+    }
+  }
+}

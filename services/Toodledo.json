@@ -1,0 +1,14 @@
+{
+  "name": "Toodledo",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/toodledo.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.toodledo.com/info/privacy.php",
+      "select": "div#rchunk"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.toodledo.com/info/terms.php",
+      "select": "div#rchunk"
+    }
+  }
+}

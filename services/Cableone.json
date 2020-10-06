@@ -1,0 +1,10 @@
+{
+  "name": "Cableone",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/cableone.net.xml",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.cableone.net/Pages/internetaup.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Time",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/time.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://subscription.timeinc.com/storefront/privacy/time/generic_privacy_new.html?dnp-source=E",
+      "select": "body"
+    }
+  }
+}

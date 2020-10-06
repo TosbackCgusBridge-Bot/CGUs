@@ -1,0 +1,10 @@
+{
+  "name": "Hsbc",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/hsbc.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.hsbc.com/1/2/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

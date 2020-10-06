@@ -1,0 +1,10 @@
+{
+  "name": "Jobsonthemenu",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/jobsonthemenu.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.jobsonthemenu.com/en-us/TalentNetwork/Pages/PrivacyPolicy.aspx?IPath=TNCNTPG",
+      "select": "div#content-container"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Deviantart",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/deviantart.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://about.deviantart.com/policy/privacy/",
+      "select": "div#policy-privacy"
+    },
+    "Terms of Service": {
+      "fetch": "http://about.deviantart.com/policy/service/",
+      "select": "div#policy-service"
+    },
+    "Community Guidelines": {
+      "fetch": "http://about.deviantart.com/policy/etiquette/",
+      "select": "div#policy-etiquette"
+    }
+  }
+}

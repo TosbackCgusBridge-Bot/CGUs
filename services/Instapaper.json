@@ -1,0 +1,18 @@
+{
+  "name": "Instapaper",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/instapaper.com.xml",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.instapaper.com/terms",
+      "select": "div.colophon_page"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.instapaper.com/privacy",
+      "select": "div.colophon_page"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.instapaper.com/api/terms",
+      "select": "div.colophon_page"
+    }
+  }
+}

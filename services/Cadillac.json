@@ -1,0 +1,10 @@
+{
+  "name": "Cadillac",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/cadillac.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.gm.com/toolbar/privacyStatement.html#par_text_0",
+      "select": "body"
+    }
+  }
+}

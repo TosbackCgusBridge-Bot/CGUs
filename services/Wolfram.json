@@ -1,0 +1,10 @@
+{
+  "name": "Wolfram",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/wolfram.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.wolfram.com/legal/privacy/wolfram-research.html",
+      "select": "div.leftcolumn"
+    }
+  }
+}

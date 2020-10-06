@@ -1,0 +1,10 @@
+{
+  "name": "Bankrate",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/bankrate.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.bankrate.com/coinfo/privacy.asp",
+      "select": "body"
+    }
+  }
+}

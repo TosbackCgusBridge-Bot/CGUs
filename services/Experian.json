@@ -1,0 +1,10 @@
+{
+  "name": "Experian",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/experian.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.experian.com/privacy/online_credit_reports.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cbc",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/cbc.ca.xml",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.cbc.ca/aboutcbc/discover/termsofuse.html",
+      "select": "div.text_content"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.cbc.ca/aboutcbc/discover/privacy.html",
+      "select": "div.text_content"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Webcrawler",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/webcrawler.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.webcrawler.com/support/privacypolicy",
+      "select": "body"
+    }
+  }
+}

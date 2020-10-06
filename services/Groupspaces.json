@@ -1,0 +1,10 @@
+{
+  "name": "Groupspaces",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/groupspaces.com.xml",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://groupspaces.com/c/terms",
+      "select": "div#popupbody"
+    }
+  }
+}

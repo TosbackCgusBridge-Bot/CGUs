@@ -1,0 +1,14 @@
+{
+  "name": "Alibaba",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/alibaba.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rule.alibaba.com/rule/detail/2034.htm",
+      "select": "[class*=\"mod-main-content\"] div.detail"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://rule.alibaba.com/rule/detail/6391.htm",
+      "select": "[class*=\"mod-main-content\"] div.detail"
+    }
+  }
+}

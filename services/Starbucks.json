@@ -1,0 +1,14 @@
+{
+  "name": "Starbucks",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/starbucks.com.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.starbucks.com/about-us/company-information/online-policies/privacy-policy",
+      "select": "div.region.size2of3"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.starbucks.com/about-us/company-information/online-policies/terms-of-use",
+      "select": "div.region.size2of3"
+    }
+  }
+}

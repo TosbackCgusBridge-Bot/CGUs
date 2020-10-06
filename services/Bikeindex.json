@@ -1,0 +1,14 @@
+{
+  "name": "Bikeindex",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/7ee395d723c33430cdcbf7fbd22bd06bba2a900e/rules/bikeindex.org.xml",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bikeindex.org/privacy/",
+      "select": "div#legal-terms"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bikeindex.org/terms",
+      "select": "div#legal-terms"
+    }
+  }
+}
